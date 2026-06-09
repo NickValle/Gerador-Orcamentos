@@ -43,12 +43,12 @@ function gerarPDF() {
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF({ orientation: 'p', unit: 'mm', format: 'a4' });
     const dadosEmpresa = {
-        nome: "nome empresa aqui",
-        cnpj: "cnpj aqui",
-        endereco: "Endereço",
-        telefone: "(85) 91234567",
-        email: "emailaqui@hotmail.com",
-        site: "www.empresa.com.br"
+        nome: "JM COBERTAS",
+        cnpj: "36.757.892/0001-17",
+        endereco: "Avenida Engenheiro Humberto Monte, 2929\nSala 602 Bs2, Pici, Fortaleza - Ceará, 60440-593",
+        telefone: "(85) 988163349",
+        email: "jmesquadrias22@hotmail.com",
+        site: "..."
     };
 
     const formatarData = (dataStr) => {
